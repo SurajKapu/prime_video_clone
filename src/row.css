@@ -1,0 +1,35 @@
+.movieContainer {
+  padding-left: 2.5em;
+  margin-bottom: 1.25em;
+}
+.genre {
+  color: white;
+  text-align: left;
+  margin-left: 0.5em;
+  margin-bottom: 0.25em;
+}
+.movieImgsRow {
+  display: flex;
+  margin-left: 0.3em;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.movieImgsRow::-webkit-scrollbar {
+  display: none;
+}
+.movieImg {
+  max-height: 300px;
+  padding: 0.25em;
+}
+.largeImg {
+  max-width: 350px;
+  padding: 0.25em;
+}
+.movieImg:hover {
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .movieContainer {
+    padding-left: 1em;
+  }
+}

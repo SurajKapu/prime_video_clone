@@ -1,0 +1,100 @@
+.backgroundImg {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0)
+    ),
+    url("https://wallpaperaccess.com/full/1512237.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+.login_container {
+  width: 100%;
+}
+.loginHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c242e;
+}
+.loginLogo {
+  width: 125px;
+  height: 85px;
+  cursor: pointer;
+  padding-left: 2em;
+}
+.signin {
+  font-size: 0.9em;
+  color: white;
+  letter-spacing: 0.75px;
+  padding: 0.25rem 0.5rem;
+  background-color: #e50914;
+  border: 1px solid #e50914;
+  border-radius: 3px;
+}
+.signin:hover {
+  cursor: pointer;
+}
+.welcomeText {
+  margin-top: 60%;
+  color: white;
+  text-align: center;
+  max-width: 500px;
+}
+.welcomeText > h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+.welcomeText > p {
+  font-size: 0.8rem;
+}
+.landingPage_btn {
+  background-color: #0f79af;
+  border: 1px solid #0f79af;
+  display: block;
+  width: 90%;
+  font-size: 1.1rem;
+  border-radius: 3px;
+  padding: 0.6em 0.5em;
+  margin: 1em auto;
+  color: white;
+}
+.landingPage_btn:hover {
+  cursor: pointer;
+}
+@media (min-width: 500px) {
+  .backgroundImg {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0)
+      ),
+      url("https://wallpaperaccess.com/full/1512237.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+  }
+  .welcomeText {
+    margin-top: 7%;
+    margin-right: 50%;
+    margin-left: 5%;
+    color: white;
+    text-align: left;
+    max-width: 500px;
+  }
+  .landingPage_btn {
+    margin-right: 1em;
+    width: 40%;
+    display: inline-block;
+  }
+}
