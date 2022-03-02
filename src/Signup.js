@@ -22,10 +22,12 @@ function Signup() {
         .then((userCredential) => {
           // Signed in
           const user = userCredential.user;
+          navigate("/");
           // ...
         })
         .catch((error) => {
           const errorMessage = error.message;
+          alert(errorMessage);
           console.log(errorMessage);
           // ..
         });

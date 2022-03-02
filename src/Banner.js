@@ -44,11 +44,12 @@ function Banner() {
         <div
           className="banner"
           style={{
-            paddingTop: "3em",
+            paddingTop: "8%",
             width: "100%",
             backgroundImage: `linear-gradient(to right,#0f171e,rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0)),url("${imageUrl}${movie.backdrop_path}")`,
             backgroundSize: "cover",
             backgroundPosition: "center center",
+            border: "1px solid #0f171e",
           }}
         ></div>
       </div>

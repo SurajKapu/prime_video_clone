@@ -1,6 +1,6 @@
 .banner_body {
   display: flex;
-  padding-left: 1.6em;
+  padding-left: 0;
   margin-bottom: 1em;
 }
 .banner {
@@ -9,7 +9,7 @@
 .bannerDetails {
   color: white;
   margin-left: 5%;
-  padding-top: 5%;
+  padding-top: 8%;
   text-align: left;
   max-width: 500px;
 }
@@ -30,5 +30,8 @@
 @media (max-width: 600px) {
   .banner_body {
     padding-left: 0;
+  }
+  .bannerDetails {
+    padding-top: 12%;
   }
 }

@@ -6,11 +6,10 @@
   height: 80vh;
   position: fixed;
   top: 0;
-  padding-left: 1em;
 }
 .modalMiddle {
   color: white;
-  padding-left: 2%;
+  padding-left: 5%;
   text-align: left;
   padding-top: 5em;
 }
@@ -53,11 +52,6 @@
   .modalMiddle {
     display: flex;
     flex-direction: column-reverse;
-  }
-  .moviedetailsRight {
-    width: 85%;
-    margin: auto;
-    height: 45vh;
   }
   .moviedetailsLeft {
     width: 90%;

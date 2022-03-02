@@ -13,7 +13,7 @@
 .logo {
   width: 6em;
   cursor: pointer;
-  padding-left: 2em;
+  padding-left: 10%;
 }
 .header_left {
   display: flex;
@@ -57,5 +57,8 @@
 @media (max-width: 1000px) {
   .header_left {
     width: 70%;
+  }
+  .logo {
+    padding-left: 7%;
   }
 }

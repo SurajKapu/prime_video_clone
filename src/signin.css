@@ -7,16 +7,17 @@
   height: fit-content;
   max-width: 350px;
   margin: auto;
+  text-align: center;
 }
 .signin__body {
   border: 1px solid rgb(194, 194, 194);
   border-radius: 5px;
-  align-items: center;
   width: 85%;
   margin: auto;
   margin-top: 1em;
   font-size: 1rem;
   padding: 1em 2em;
+  text-align: left;
 }
 .signin__logo {
   width: 140px;
@@ -47,9 +48,6 @@
   color: black;
 }
 @media (max-width: 600px) {
-  .signin__logo {
-    width: 90px;
-  }
   .signin_email,
   .signin_password {
     width: 100%;

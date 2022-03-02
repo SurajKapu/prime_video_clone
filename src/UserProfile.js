@@ -25,7 +25,7 @@ function UserProfile({ closeProfile }) {
         <li
           className="signOut"
           style={{
-            margin: "5rem 1.25rem",
+            margin: "3.5rem",
             listStyle: "none",
             display: "inline-block",
             padding: "0.5em",
