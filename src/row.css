@@ -27,6 +27,7 @@
 }
 .movieImg:hover {
   cursor: pointer;
+  transform: scale(1.1);
 }
 @media (min-width: 890px) {
   .movieContainer {
