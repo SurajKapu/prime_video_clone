@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./homepage.css";
-import Signin from "./Signin";
+import Signin from "../Login/Signin";
 
 function Homepage() {
   let [signin, setsignin] = useState(false);

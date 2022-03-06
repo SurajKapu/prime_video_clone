@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import axios from "./axios";
-import { API_KEY } from "./request";
+import axios from "../../axios";
+import { API_KEY } from "../../request";
 import ReactPlayer from "react-player";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import Header from "./Header";

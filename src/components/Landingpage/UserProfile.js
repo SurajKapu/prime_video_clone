@@ -2,7 +2,7 @@ import React from "react";
 import "./userProfile.css";
 import { Navigate, useNavigate } from "react-router-dom";
 
-import { auth } from "./firebase";
+import { auth } from "../../firebase";
 import { signOut } from "firebase/auth";
 
 function UserProfile({ closeProfile }) {

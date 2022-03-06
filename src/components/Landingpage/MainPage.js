@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import Banner from "./Banner";
-import requests from "./request";
+import requests from "../../request";
 import Row from "./Row";
 
 function MainPage() {

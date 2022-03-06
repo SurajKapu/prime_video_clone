@@ -3,9 +3,9 @@ import "./signin.css";
 import { Navigate, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { auth } from "./firebase";
+import { auth } from "../../../firebase";
 import { useDispatch } from "react-redux";
-import { login } from "./userSlice";
+import { login } from "../../../userSlice";
 
 function Signin() {
   const navigate = useNavigate();

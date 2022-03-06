@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import requests from "./request";
-import axios from "./axios";
+import requests from "../../request";
+import axios from "../../axios";
 import "./banner.css";
 import { Link } from "react-router-dom";
 

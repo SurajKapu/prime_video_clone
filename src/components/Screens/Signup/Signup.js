@@ -3,10 +3,10 @@ import { useNavigate } from "react-router-dom";
 import "./signup.css";
 import { useState } from "react";
 import { createUserWithEmailAndPassword } from "firebase/auth";
-import { auth } from "./firebase";
+import { auth } from "../../../firebase";
 import { updateProfile } from "firebase/auth";
 import { useDispatch } from "react-redux";
-import { login } from "./userSlice";
+import { login } from "../../../userSlice";
 
 function Signup() {
   const dispatch = useDispatch();

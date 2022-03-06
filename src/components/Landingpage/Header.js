@@ -5,7 +5,7 @@ import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import UserProfile from "./UserProfile";
 
 import { signOut } from "firebase/auth";
-import { auth } from "./firebase";
+import { auth } from "../../firebase";
 
 function Header() {
   const navigate = useNavigate();
